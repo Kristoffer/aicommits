@@ -1,5 +1,5 @@
 {
-	"name": "aicommits",
+	"name": "test-kristoffer.aicommits",
 	"version": "0.0.0-semantic-release",
 	"description": "Writes your git commit messages for you with AI",
 	"keywords": [
