@@ -33,7 +33,8 @@
 		"*.ts": "eslint --cache"
 	},
 	"dependencies": {
-		"@dqbd/tiktoken": "^1.0.2"
+		"@dqbd/tiktoken": "^1.0.2",
+		"aicommits": "github:Kristoffer/aicommits#npm/develop"
 	},
 	"devDependencies": {
 		"@clack/prompts": "^0.6.1",
@@ -61,7 +62,12 @@
 		"extends": "@pvtnbr",
 		"rules": {
 			"unicorn/no-process-exit": "off",
-			"complexity": ["error", { "max": 14 }]
+			"complexity": [
+				"error",
+				{
+					"max": 14
+				}
+			]
 		},
 		"overrides": [
 			{
