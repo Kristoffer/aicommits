@@ -20,6 +20,6 @@
 	},
 	"dependencies": {
 		"@dqbd/tiktoken": "^1.0.2",
-		"aicommits": "github:Kristoffer/aicommits#npm/develop"
+		"lint-staged": "^15.2.0"
 	}
 }
